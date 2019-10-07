@@ -30,7 +30,7 @@ if __name__ == "__main__":
     #Enter in the keyspace
     session.execute("USE MyKeyspace;")
 
-    #Create ColumFamilies (Tables)
+    #Create Tables
     session.execute("""
     CREATE TABLE Application
     (
@@ -38,10 +38,11 @@ if __name__ == "__main__":
         name text,
         category text,
         rating float,
-        size int,
-        install int,
-        type text,
-        price float,
+        reviews int,
+        size text,
+        installs text,
+        free Boolean,
+        price_dollar float,
         content_rating text, 
         genres text,
         last_update date,
@@ -49,6 +50,7 @@ if __name__ == "__main__":
         android_ver text
     );
     """)
+    
     session.execute("""
     CREATE TABLE Review
     (
@@ -59,9 +61,7 @@ if __name__ == "__main__":
         sentiment_polarity float,
         sentiment_subjectivity float
     );
-
     """)
 
     #Close cluster
     cluster.shutdown()
-
