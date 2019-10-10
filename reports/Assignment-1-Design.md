@@ -6,7 +6,7 @@ I kept the basic structure of the project. I created a server using Cassandra Ap
 
 ## 2. Explain how many nodes are needed in the deployment of mysimbdp-coredms so that this component can work property (theoretically based on the selected technology )
 
-I only use one node because considering the use of my Cassandra server I don't think it is necessary to use more nodes on a server like mine right now. Anyway, adding nodes is very easy with Cassandra, if we want to make the server more robust by using Replica or make the server more available then we will have to use additional nodes.
+I only use one node because considering the use of my Cassandra server I don't think it is necessary to use more nodes on a server like mine right now. Anyway, adding nodes is very easy with Cassandra, if we want to make the server more robust by using Replica (that duplicate data and make the server more reliable in case of corrupted data or node crashes) or make the server more available then we will have to use additional nodes.
 
 ## 3. Will you use VMs or containers for mysimbdp and explain the reasons for each component
 
