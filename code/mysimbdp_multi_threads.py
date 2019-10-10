@@ -2,7 +2,6 @@ from multiprocessing import Pool, TimeoutError, Process
 import time
 from timeit import default_timer as d_timer
 import os
-import numpy as np
 import matplotlib.pyplot as plt
 import csv
 

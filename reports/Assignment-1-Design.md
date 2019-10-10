@@ -26,3 +26,9 @@ I chose Cassandra for several reasons:
 - Cassandra allows you to have flexible data schemas
 
 The main limitation I could find was the size of the columns, all the data for a key value, must fit on the disk of a single machine (which is not a problem for the data I use)
+
+Choosing the Cloud Platform for the future of my project is quite difficult. Differences between the existing Cloud Platforms are not very numerous. The 3 main platforms at that time are AWS, Azure Cloud and Google Cloud.
+I think I have right when I assume that for my project, differencies between these 3 will not be visible/measurable.
+What will make the difference will be how the platform will deal with data privacy, the backend knowledge and the price.
+
+This last is the one that make the difference because Aalto-University offers a Google Cloud space ! And Google Cloud is more user friendly than the others.

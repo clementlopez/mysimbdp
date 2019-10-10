@@ -37,7 +37,7 @@ def fill_database(session):
                 row[9], row[10], row[11], row[12])
                 )
             line_count += 1
-            if line_count%1000==0:
+            if line_count%10==0:
                 timer.append([str(line_count),str(d_timer()-debut)])
     return timer
 
