@@ -1,2 +1,66 @@
-the content of this file should be the output of the log of your own git project for this assignment
-using git log command to export your git log
+commit a973ca682f944f4111ace87e9f345bab5fb638fa
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Thu Oct 10 22:14:32 2019 +0300
+
+    doc part 3
+
+commit 3b1de8ebd99452d4986ee1516c3a3c861517118d
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Thu Oct 10 21:42:24 2019 +0300
+
+    minor changes part 1 + doc part 2 + start doc part 3
+
+commit 82ba03af89ddf8e53a309b46f1564216dc2bb04d
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Thu Oct 10 10:10:58 2019 +0300
+
+    minor changes for rendering
+
+commit 30c80925cba019703c9561e9e8b1b97dd1af67fb
+Merge: 0f51a0a 9557692
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Thu Oct 10 10:04:45 2019 +0300
+
+    Merge branch 'master' of https://github.com/clementlopez/mysimbdp
+
+commit 95576923e47b076f08de73015652e16e2b8ded39
+Author: clementlopez <lopezclement31@gmail.com>
+Date:   Thu Oct 10 12:14:48 2019 +0300
+
+    Add documentation part 1
+
+commit c674a3e6016879d72ab2dcbfcfd044c43d4417a0
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Thu Oct 10 10:04:35 2019 +0300
+
+    multi-threads insertions + plot time results
+
+commit 0f51a0a6fefe137b372aec5603c03b5101e7dba8
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Thu Oct 10 10:04:35 2019 +0300
+
+    multi-threads insertions + plot time results
+
+commit 314c383e0707f8a0fa3b665b7d8da5cb37743e25
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Mon Oct 7 12:41:29 2019 +0300
+
+    DataSet Cleaner + Implementation Insertion in DataBase
+
+commit 82871c543c84789f7538a4b4fafd4053b47df0dd
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Mon Oct 7 18:43:07 2019 +0300
+
+    connect cluster + creation BD skeleton
+
+commit 1e8e7cb2f05149e16e2081697226ff17376ef724
+Author: clement.lopez <clement.lopez@moonshotlabs.com>
+Date:   Mon Oct 7 15:39:57 2019 +0300
+
+    initial commit
+
+commit cda95b2a685c20f3d31ffb7fe5cf4983e06e55ac
+Author: clementlopez <lopezclement31@gmail.com>
+Date:   Mon Oct 7 15:03:22 2019 +0300
+
+    Initial commit
