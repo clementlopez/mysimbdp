@@ -5,7 +5,7 @@
 The Google App Dataset contains 2 csv files. For this first Assignment I focused on the structure part of the server and I didn't look in detail at the optimization of the database. So I created exactly the same Tables as the ones in the csv files (one for apps and one for reviews). For the rest of the Assignment, I only used the Applications Table (and therefore the data of only one of the csvs). However, I had to write a python script to rewrite the csv data more cleanly. For example, the number of reviews is in int in my database but some line of the csv had a data that could not be converted to int ('3.0M' for example).
 
 My 2 tables are :
-"""
+```
 CREATE TABLE Application(
 	id UUID PRIMARY KEY,
 	name text,
@@ -22,9 +22,9 @@ CREATE TABLE Application(
 	current_ver text,
 	android_ver text
 );
-"""
+```
 And :
-"""
+```
 CREATE TABLE Review (
 	id UUID PRIMARY KEY,
 	app_name text,
@@ -32,7 +32,8 @@ CREATE TABLE Review (
 	sentiment text,
 	sentiment_polarity float,
 	sentiment_subjectivity float
-);"""
+);
+```
 
 ## 2. Explain how would you partition the data in mysimbdp-coredms into differentshards/partitions
 
