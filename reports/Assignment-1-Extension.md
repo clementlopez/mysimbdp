@@ -32,11 +32,11 @@ mysimdbp-daas will be an API that will use mysimbdp-dataingest in backend in ord
 As I code with Python, a Python API will be an option. An other option will be to implement a REST API could be useful to receive queries of data from a web site or an Android App.
 
 Some examples of function of the API could be :
-"""
+```
 connect(<cluster_ip>)
 insert_into(<table_name>,<data_in_csv>)
 close_connect(<cluster_ip>)
-"""
+```
 
 ## 5. Assume that now only mysimbdp-daas can read and write data into mysimbdp-coredms, how would you change your mysimbdp-dataingest (in Part 2) to work with mysimbdp-daas
 
